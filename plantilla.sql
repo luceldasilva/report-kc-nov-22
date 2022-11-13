@@ -37,5 +37,5 @@ select * from kcnov22 where usuario like '%x%';
 update kcnov22 set xenoblur = true where id = x;
 --
 select deck, skill, ndmax from kcnov22 order by id;
-select deck, skill, ndmax, zerotg, zephra, bryan, xenoblur from kcnov22 order by id;
+select deck, skill, ndmax, zerotg, zephra, bryan, xenoblur from kcnov22 order by ndmax;
 --
